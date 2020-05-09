@@ -1,2 +1,2 @@
-# express-js-quickstart
-A REST API base using Express.js
+# Express JS Quickstart
+> A base REST API project using Express and Node
