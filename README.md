@@ -19,7 +19,7 @@ Install NodeJS using this [gist](https://gist.github.com/MichaelCurrin/aa1fc5641
 Clone repo.
 
 ```sh
-$ git clone git@github.com:MichaelCurrin/express-js-create-app-quickstart.git
+$ git clone git@github.com:MichaelCurrin/express-js-rest-quickstart.git
 $ cd express-js-create-app-quickstart
 ```
 
