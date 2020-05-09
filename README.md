@@ -57,7 +57,10 @@ $ curl http://localhost:3000/foo
 
 $ curl http://localhost:3000/foo -X POST
 
-$ curl http://localhost:3000/foo -X POST -d a=b
+$ # Form data.
+$ curl http://localhost:3000/foo -X POST -d 'a=b'
+$ # JSON data.
+$ curl http://localhost:3000/foo -X POST -d '{"a": "b"}' -H "Content-Type: application/json"
 
 $ curl http://localhost:3000/foo -X DELETE
 
@@ -67,8 +70,7 @@ $ curl http://localhost:3000/bar
 
 $ # Verbose flag shows the error code.
 $ curl -v http://localhost:3000/baz
-
-$ curl http://localhost:3000/admin
+$ curl -v http://localhost:3000/admin
 ```
 
 
@@ -99,3 +101,7 @@ req.params
 ### Body parse
 
 You do not need use use `bodyparser` package anymore to handle JSON body - see resources.
+
+The `.urlencoded` middleware is needed to parse the form data.
+
+The `.json` middleware parse JSON-formatted text for bodies with a Content-Type of `application/json`.
