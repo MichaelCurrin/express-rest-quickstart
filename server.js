@@ -17,12 +17,9 @@ app.get("/foo", function (_req, res) {
 });
 
 app.post("/foo", function (req, res) {
-  var data = req.body;
-
-  console.log(data);
   res.status(201).send({
     message: "Created a foo using data",
-    data: data,
+    data: req.body,
   });
 });
 
