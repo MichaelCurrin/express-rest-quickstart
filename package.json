@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MichaelCurrin/express-js-quickstart/issues"
   },
-  "homepage": "https://github.com/MichaelCurrin/express-js-quickstart#readme"
+  "homepage": "https://github.com/MichaelCurrin/express-js-quickstart#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
