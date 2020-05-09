@@ -3,6 +3,8 @@ const express = require("express");
 const port = process.env.PORT || 3000;
 
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded());
 
 app.get("/", function (_req, res) {
   res.send("Hello, world!");
@@ -14,9 +16,13 @@ app.get("/foo", function (_req, res) {
   });
 });
 
-app.post("/foo", function (_req, res) {
-  res.send({
-    message: "Created a foo",
+app.post("/foo", function (req, res) {
+  var data = req.body;
+
+  console.log(data);
+  res.status(201).send({
+    message: "Created a foo using data",
+    data: data,
   });
 });
 
@@ -38,6 +44,10 @@ app.get("/baz", function (_req, res) {
   res.status(400).send({
     message: "Sample 400",
   });
+});
+
+app.get("/admin", function (_req, res) {
+  res.sendStatus(401);
 });
 
 app.listen(port, () => console.log(`Listening at http://localhost:${port}`));
