@@ -84,7 +84,8 @@ $ curl -v http://localhost:3000/admin
 - Posts
     - [You may not need bodyparser](https://medium.com/@mmajdanski/express-body-parser-and-why-may-not-need-it-335803cd048c)
     - [Get HTTP POST Body in Express.js](https://stackabuse.com/get-http-post-body-in-express-js/)
-
+    - [How to setup Express JS server](https://dev.to/kyrelldixon/how-to-setup-an-express-js-server-in-node-js-56hp) - includes how to test in multiple ways
+    
 
 ## Notes
 
