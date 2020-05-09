@@ -2,8 +2,7 @@
   "name": "express-js-quickstart",
   "version": "0.0.1",
   "description": "A base REST API project using Express and Node",
-  "main": "index.js",
-  "scripts": {},
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MichaelCurrin/express-js-quickstart.git"
