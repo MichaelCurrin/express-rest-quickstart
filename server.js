@@ -1,3 +1,6 @@
+/**
+ * Quickstart of express REST server. 
+ */
 const express = require("express");
 
 const port = process.env.PORT || 3000;
@@ -17,7 +20,8 @@ app.get("/foo", function (_req, res) {
 });
 
 app.post("/foo", function (req, res) {
-  res.status(201).send({
+  res.status(201)
+    .send({
     message: "Created a foo using data",
     data: req.body,
   });
@@ -38,7 +42,8 @@ app.get("/foo/:bar", function (req, res) {
 });
 
 app.get("/baz", function (_req, res) {
-  res.status(400).send({
+  res.status(400)
+    .send({
     message: "Sample 400",
   });
 });
