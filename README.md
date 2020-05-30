@@ -1,7 +1,11 @@
 # Express JS Rest Quickstart
 > A base REST API project using Express and Node
 
-See [expressjs.com](https://expressjs.com/).
+
+## Resources
+
+- [expressjs.com](https://expressjs.com/) homepage.
+- [express](https://www.npmjs.com/package/express) package on NPM.
 
 
 ## Requirements
