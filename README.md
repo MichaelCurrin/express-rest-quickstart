@@ -1,18 +1,19 @@
 # Express JS Rest Quickstart
 > A base REST API project using Express and Node
 
+See [expressjs.com](https://expressjs.com/).
+
 
 ## Requirements
 
-- NodeJS
+- Node.js
 
 
 ## Installation
 
-
 ### Install system dependencies
 
-Install NodeJS using this [gist](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba).
+Install Node.js using this [gist](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba).
 
 ### Clone project
 
@@ -42,13 +43,12 @@ $ npm serve
 
 Open in the browser.
 
-- http://localhost:3000
+- http://localhost:3000/
 
 
 ### Request
 
 While the server is running:
-
 
 ```sh
 $ curl http://localhost:3000/
@@ -89,7 +89,6 @@ $ curl -v http://localhost:3000/admin
 
 ## Notes
 
-
 ### Attributes of request object
 
 ```javascript
@@ -111,4 +110,4 @@ The `.json` middleware parse JSON-formatted text for bodies with a Content-Type 
 
 ## License
 
-Released under [MIT](/LICENSE)
+Released under [MIT](/LICENSE).
