@@ -5,8 +5,8 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "author": "Michael Currin",
   "description": "A base REST API project using Express and Node",
+  "author": "Michael Currin",
   "license": "MIT",
   "repository": {
     "type": "git",
