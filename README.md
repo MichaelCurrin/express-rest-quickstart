@@ -18,7 +18,7 @@
     - [You may not need bodyparser](https://medium.com/@mmajdanski/express-body-parser-and-why-may-not-need-it-335803cd048c)
     - [Get HTTP POST Body in Express.js](https://stackabuse.com/get-http-post-body-in-express-js/)
     - [How to setup Express JS server](https://dev.to/kyrelldixon/how-to-setup-an-express-js-server-in-node-js-56hp) - includes how to test in multiple ways
-    
+
 
 ## Requirements
 
@@ -89,9 +89,9 @@ $ curl -v http://localhost:3000/admin
 ```
 
 
-## Notes
+## Developer notes
 
-### Attributes of request object
+### Attributes of the request object
 
 ```javascript
 req.body
@@ -105,7 +105,7 @@ req.params
 
 You do not need use use `bodyparser` package anymore to handle JSON body - see resources.
 
-The `.urlencoded` middleware is needed to parse the form data.
+The `.urlencoded` middleware is needed to parse the form data. You pass explicitly pass it `extended` option (default is `true`), to avoid a deprecation warning. See [express #3650](https://github.com/expressjs/express/issues/3650).
 
 The `.json` middleware parse JSON-formatted text for bodies with a Content-Type of `application/json`.
 
