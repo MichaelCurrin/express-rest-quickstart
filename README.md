@@ -1,10 +1,10 @@
 # Express JS REST Quickstart
 > A base REST API project using Express and Node
 
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/express-js-rest-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/express-js-rest-quickstart/releases/)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/express-rest-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/express-rest-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![Package - express](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/express-js-rest-quickstart/express?logo=express&logoColor=white)](https://www.npmjs.com/package/express)
+[![Package - express](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/express-rest-quickstart/express?logo=express&logoColor=white)](https://www.npmjs.com/package/express)
 
 
 ## Requirements
@@ -23,7 +23,7 @@ Install Node.js using this [gist](https://gist.github.com/MichaelCurrin/aa1fc564
 Clone repo.
 
 ```sh
-$ git clone git@github.com:MichaelCurrin/express-js-rest-quickstart.git
+$ git clone git@github.com:MichaelCurrin/express-rest-quickstart.git
 $ cd express-js-create-app-quickstart
 ```
 

@@ -1,5 +1,5 @@
 {
-  "name": "express-js-rest-quickstart",
+  "name": "express-rest-quickstart",
   "version": "0.1.0",
   "main": "server.js",
   "dependencies": {
@@ -10,12 +10,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichaelCurrin/express-js-rest-quickstart.git"
+    "url": "git+https://github.com/MichaelCurrin/express-rest-quickstart.git"
   },
   "bugs": {
-    "url": "https://github.com/MichaelCurrin/express-js-rest-quickstart/issues"
+    "url": "https://github.com/MichaelCurrin/express-rest-quickstart/issues"
   },
-  "homepage": "https://github.com/MichaelCurrin/express-js-rest-quickstart#readme",
+  "homepage": "https://github.com/MichaelCurrin/express-rest-quickstart#readme",
   "keywords": [
     "express",
     "node",
