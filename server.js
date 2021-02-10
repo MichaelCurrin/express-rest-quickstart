@@ -1,5 +1,5 @@
 /**
- * Quickstart of express REST server. 
+ * Basic REST server built on Express.
  */
 const express = require("express");
 
@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 const app = express();
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 
 app.get("/", function (_req, res) {
   res.send("Hello, world!");
@@ -22,9 +22,9 @@ app.get("/foo", function (_req, res) {
 app.post("/foo", function (req, res) {
   res.status(201)
     .send({
-    message: "Created a foo using data",
-    data: req.body,
-  });
+      message: "Created a foo using data",
+      data: req.body,
+    });
 });
 
 app.delete("/foo", function (_req, res) {
@@ -44,8 +44,8 @@ app.get("/foo/:bar", function (req, res) {
 app.get("/baz", function (_req, res) {
   res.status(400)
     .send({
-    message: "Sample 400",
-  });
+      message: "Sample 400",
+    });
 });
 
 app.get("/admin", function (_req, res) {
