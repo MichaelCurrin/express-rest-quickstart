@@ -1,26 +1,26 @@
 {
   "name": "express-js-rest-quickstart",
   "version": "0.0.1",
-  "description": "A base REST API project using Express and Node",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "Michael Currin",
+  "description": "A base REST API project using Express and Node",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MichaelCurrin/express-js-rest-quickstart.git"
   },
+  "bugs": {
+    "url": "https://github.com/MichaelCurrin/express-js-rest-quickstart/issues"
+  },
+  "homepage": "https://github.com/MichaelCurrin/express-js-rest-quickstart#readme",
   "keywords": [
     "express",
     "node",
     "base",
     "rest",
     "api"
-  ],
-  "author": "Michael Currin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MichaelCurrin/express-js-rest-quickstart/issues"
-  },
-  "homepage": "https://github.com/MichaelCurrin/express-js-rest-quickstart#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  ]
 }
