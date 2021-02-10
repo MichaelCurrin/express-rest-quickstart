@@ -1,12 +1,24 @@
-# Express JS Rest Quickstart
+# Express JS REST Quickstart
 > A base REST API project using Express and Node
+
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/express-js-rest-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/express-js-rest-quickstart/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
 ## Resources
 
 - [expressjs.com](https://expressjs.com/) homepage.
 - [express](https://www.npmjs.com/package/express) package on NPM.
-
+- Express docs
+    - [Quickstart](https://expressjs.com/en/starter/hello-world.html)
+    - [Routing](https://expressjs.com/en/starter/basic-routing.html)
+    - [Route paths](http://expressjs.com/en/guide/routing.html#route-paths)
+    - [express Methods](http://expressjs.com/en/api.html#express.json)
+- Posts
+    - [You may not need bodyparser](https://medium.com/@mmajdanski/express-body-parser-and-why-may-not-need-it-335803cd048c)
+    - [Get HTTP POST Body in Express.js](https://stackabuse.com/get-http-post-body-in-express-js/)
+    - [How to setup Express JS server](https://dev.to/kyrelldixon/how-to-setup-an-express-js-server-in-node-js-56hp) - includes how to test in multiple ways
+    
 
 ## Requirements
 
@@ -42,17 +54,16 @@ npm install
 Start local dev server.
 
 ```sh
-$ npm serve
+$ npm start
 ```
 
-Open in the browser.
+Open in the browser:
 
 - http://localhost:3000/
 
-
 ### Request
 
-While the server is running:
+While the server is running, you can run these in another terminal tab.
 
 ```sh
 $ curl http://localhost:3000/
@@ -78,19 +89,6 @@ $ curl -v http://localhost:3000/admin
 ```
 
 
-## Resources
-
-- Express
-    - [Quickstart](https://expressjs.com/en/starter/hello-world.html)
-    - [Routing](https://expressjs.com/en/starter/basic-routing.html)
-    - [Route paths](http://expressjs.com/en/guide/routing.html#route-paths)
-    - [express Methods](http://expressjs.com/en/api.html#express.json)
-- Posts
-    - [You may not need bodyparser](https://medium.com/@mmajdanski/express-body-parser-and-why-may-not-need-it-335803cd048c)
-    - [Get HTTP POST Body in Express.js](https://stackabuse.com/get-http-post-body-in-express-js/)
-    - [How to setup Express JS server](https://dev.to/kyrelldixon/how-to-setup-an-express-js-server-in-node-js-56hp) - includes how to test in multiple ways
-    
-
 ## Notes
 
 ### Attributes of request object
@@ -114,4 +112,4 @@ The `.json` middleware parse JSON-formatted text for bodies with a Content-Type 
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
