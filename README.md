@@ -112,6 +112,12 @@ The `.json` middleware parse JSON-formatted text for bodies with a Content-Type 
     - [How to setup Express JS server](https://dev.to/kyrelldixon/how-to-setup-an-express-js-server-in-node-js-56hp) - includes how to test in multiple ways
 
 
+## Related projects
+
+- [![MichaelCurrin - express-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=express-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/express-quickstart)
+- [![MichaelCurrin - node-project-template](https://img.shields.io/static/v1?label=MichaelCurrin&message=node-project-template&color=blue&logo=github)](https://github.com/MichaelCurrin/node-project-template)
+
+
 ## License
 
 Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
