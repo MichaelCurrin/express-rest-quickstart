@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "description": "A base REST API project using Express and Node",
   "author": "Michael Currin",
